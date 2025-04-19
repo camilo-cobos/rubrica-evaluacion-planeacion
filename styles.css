@@ -161,3 +161,48 @@ tr:nth-child(even) {
     font-size: 14px;
   }
 }
+/* Agregar al final del archivo styles.css */
+.rubrica-info {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-left: 4px solid #3498db;
+}
+
+.rubrica-info p {
+  margin: 5px 0;
+}
+
+/* Estilos para los niveles de evaluación */
+.excelente {
+  background-color: #d4edda;
+  color: #155724;
+  font-weight: 500;
+}
+
+.satisfactorio {
+  background-color: #fff3cd;
+  color: #856404;
+  font-weight: 500;
+}
+
+.insuficiente {
+  background-color: #f8d7da;
+  color: #721c24;
+  font-weight: 500;
+}
+
+/* Mejorar la tabla */
+table {
+  table-layout: fixed;
+}
+
+table td, table th {
+  word-wrap: break-word;
+}
+
+.criterio {
+  font-weight: 600;
+  color: #2c3e50;
+}
